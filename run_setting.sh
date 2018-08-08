@@ -16,8 +16,5 @@ fi
 
 # add the path of anaconda
 CONDA_PATH='/workspace/mnt/group/video/chenshuaijun/pkg/anaconda3/bin'
-echo "PATH='${CONDA_PATH}:\$PATH'" >> ~/.bashrc
- 
-
-
-
+echo "export PATH='${CONDA_PATH}:\$PATH'" >> ~/.bashrc
+source ~/.bashrc
