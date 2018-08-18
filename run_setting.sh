@@ -15,6 +15,6 @@ if [ ! -f ~/.vimrc ];then
 fi
 
 # add the path of anaconda
-CONDA_PATH="/workspace/mnt/group/video/chenshuaijun/pkg/anaconda3/bin"
-echo "export PATH='${CONDA_PATH}:\$PATH'" >> ~/.bashrc
+CONDA_PATH='/workspace/mnt/group/video/chenshuaijun/pkg/anaconda3/bin'
+echo "export PATH=\"${CONDA_PATH}:\$PATH\"" >> ~/.bashrc
 source ~/.bashrc
